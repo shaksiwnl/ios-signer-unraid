@@ -27,11 +27,11 @@ You now need to configure a CI provider. You only need one of them:
 1. [Open](https://github.com/settings/tokens/new) the Personal access token generation page
 2. Select (grant) the `workflow` scope
 3. Generate the token
-4. Copy the token and put it in a safe place (notpad etc)
+4. Copy the token and put it in a safe place (notepad etc)
 
 This is the token you need for your `ios-signer-service`'s builder configuration.
 
-### Generate a Apple Dev Cerificate
+### Generate a Apple Dev Certificate
 
 The certificate is a file with an extension `.p12`. To obtain it, follow the instructions below:
 
@@ -103,7 +103,7 @@ You will need to prepare a signing profile for use with the signing service.
 2. Your first rule should be your apps and jobs bypass. You can copy that rule down below. 
 3. You then need to enable a policy for securing the webserver. 
 4. I use a group named "`ios`" and then have all of my friends/family that use the ios signer a part of that group. They will need their own login (Or you can use just one for them just make the password strong :] )
-5. IN your user_database.yml you need to grant those friends and family memebers the group "`ios`". Here is an [example](https://i.imgur.com/ZUSCKUF.png). You should also grant your self that ios group as well as your admin group. 
+5. IN your user_database.yml you need to grant those friends and family members the group "`ios`". Here is an [example](https://i.imgur.com/ZUSCKUF.png). You should also grant your self that ios group as well as your admin group. 
 5. Your admin and wildcard rule should be below these two rules. 
 6. Below is how I have my authelia config set up under access control section. 
 
