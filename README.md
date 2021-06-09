@@ -14,7 +14,7 @@ You only need to configure one provider.
 ## Setup
 
 1. Create a GitHub account
-2. Click on the `Use this template` button at the top of this page
+2. Click on the `Use this template` button at the top of this linked page [here](https://github.com/SignTools/ios-signer-ci)
 3. Give the new project a name and set the visibility to `Private`
 4. Create the new project
 
