@@ -198,6 +198,8 @@ basic_auth:
 
   ```appdata folder
   data (ios folder)
+  |____config                      # place your signer-cfg.yml in here
+  | |____ signer-cfg.yml           # place your signer-cfg.yml in here
   |____profiles
   | |____my_profile                # any unique string that you want
   | | |____cert.p12                # the signing certificate
