@@ -210,11 +210,10 @@ basic_auth:
   | | |____...
   ```
 
-1. The appdata folder will have an extra "data" folder inside it. Disregard that folder. Use the profiles folder [here:](https://i.imgur.com/m9noew2.png)
-2. Open the profiles profile and create a folder in there and name it whatever you want. I use "`my_name`". 
-3. Place all of your files in your newly created folder [files](https://i.imgur.com/P9RhKkL.png). Everything must have the names above. 
-4. The .mobileprovision files name can be whatever you named your profile. 
-5. Upload your signer-cfg.yml file to the config folder. 
+1. Open the profiles profile and create a folder in there and name it whatever you want. I use "`my_name`". 
+2. Place all of your files in your newly created folder [files](https://i.imgur.com/P9RhKkL.png). Everything must have the names above. 
+3. The .mobileprovision files name can be whatever you named your profile. 
+4. Upload your signer-cfg.yml file to the config folder. 
 
 ### Start the container and sign an App
 
