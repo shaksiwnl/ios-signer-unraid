@@ -118,9 +118,11 @@ access_control:
     # Rules applied to 'admins' group
     - domain: sign.domain.tld
       resources:
-      - "^/apps/.*$"
+     - "^/apps/.*$"
       - "^/jobs/.*$"
       - "^/jobs$"
+      - "^/files/.*$"
+      - "^/jobs/.*$/tus/$"
       policy: bypass
     - domain: sign.domain.tld
       subject:
